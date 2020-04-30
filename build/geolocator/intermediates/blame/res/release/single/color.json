@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/build/geolocator/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/home/khalid/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/build/geolocator/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/khalid/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/build/geolocator/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/khalid/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/res/color/common_google_signin_btn_text_light.xml"
+    }
+]

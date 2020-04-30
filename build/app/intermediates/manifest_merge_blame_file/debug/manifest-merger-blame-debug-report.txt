@@ -1,0 +1,114 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kksa"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:5:5-66
+14-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:5:22-64
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:4:5-70
+15-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:4:22-68
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:6:5-79
+16-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:6:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
+17-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:7:5-81
+17-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:7:22-78
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-maps:17.0.0] /home/khalid/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-maps:17.0.0] /home/khalid/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:17.0.0] /home/khalid/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:17.0.0] /home/khalid/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:17.0.0] /home/khalid/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+23    <!--
+24 io.flutter.app.FlutterApplication is an android.app.Application that
+25         calls FlutterMain.startInitialization(this); in its onCreate method.
+26         In most cases you can leave this as-is, but you if you want to provide
+27         additional functionality it is fine to subclass or reimplement
+28         FlutterApplication and put your custom class here.
+29    -->
+30    <application
+30-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:15:5-39:19
+31        android:name="io.flutter.app.FlutterApplication"
+31-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:16:9-57
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.2.0] /home/khalid/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:18:9-43
+35        android:label="ملاك" >
+35-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:17:9-29
+36        <activity
+36-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:22:9-33:20
+37            android:name="com.kksa.MainActivity"
+37-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:23:13-41
+38            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+38-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:26:13-163
+39            android:hardwareAccelerated="true"
+39-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:27:13-47
+40            android:launchMode="singleTop"
+40-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:24:13-43
+41            android:theme="@style/LaunchTheme"
+41-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:25:13-47
+42            android:windowSoftInputMode="adjustResize" >
+42-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:28:13-55
+43            <intent-filter>
+43-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:29:13-32:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:30:17-68
+44-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:30:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:31:17-76
+46-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:31:27-74
+47            </intent-filter>
+48        </activity>
+49        <!--
+50             Don't delete the meta-data below.
+51             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+52        -->
+53        <meta-data
+53-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:36:9-38:33
+54            android:name="flutterEmbedding"
+54-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:37:13-44
+55            android:value="2" />
+55-->/home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/android/app/src/main/AndroidManifest.xml:38:13-30
+56        <!-- Needs to be explicitly declared on P+ -->
+57        <uses-library
+57-->[com.google.android.gms:play-services-maps:17.0.0] /home/khalid/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+58            android:name="org.apache.http.legacy"
+58-->[com.google.android.gms:play-services-maps:17.0.0] /home/khalid/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+59            android:required="false" />
+59-->[com.google.android.gms:play-services-maps:17.0.0] /home/khalid/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+60
+61        <activity
+61-->[com.google.android.gms:play-services-base:17.2.1] /home/khalid/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
+62            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+62-->[com.google.android.gms:play-services-base:17.2.1] /home/khalid/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/AndroidManifest.xml:24:13-79
+63            android:exported="false"
+63-->[com.google.android.gms:play-services-base:17.2.1] /home/khalid/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/AndroidManifest.xml:25:13-37
+64            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+64-->[com.google.android.gms:play-services-base:17.2.1] /home/khalid/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/AndroidManifest.xml:26:13-72
+65
+66        <meta-data
+66-->[com.google.android.gms:play-services-basement:17.2.1] /home/khalid/.gradle/caches/transforms-2/files-2.1/a23793f8af0b317b851ebb411c592c8f/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
+67            android:name="com.google.android.gms.version"
+67-->[com.google.android.gms:play-services-basement:17.2.1] /home/khalid/.gradle/caches/transforms-2/files-2.1/a23793f8af0b317b851ebb411c592c8f/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58
+68            android:value="@integer/google_play_services_version" />
+68-->[com.google.android.gms:play-services-basement:17.2.1] /home/khalid/.gradle/caches/transforms-2/files-2.1/a23793f8af0b317b851ebb411c592c8f/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
+69    </application>
+70
+71</manifest>

@@ -1,0 +1,8 @@
+# Referenced at /home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:28
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:58
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at /home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:33
+-keep class com.kksa.MainActivity { <init>(); }
+# Referenced at /home/khalid/Desktop/Programming_Files/MyProjects/Projects/Flutter/kksa/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:28
+-keep class io.flutter.app.FlutterApplication { <init>(); }
